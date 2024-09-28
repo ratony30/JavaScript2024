@@ -27,7 +27,7 @@ function mostrarAnimales(animales) {
   animales.forEach(animal => {
     const animalElement = `
       <div class="animal" data-id="${animal.id}">
-        <img src="${animal.imagen}" alt="${animal.nombre}">  <!-- Se agregó el atributo src -->
+        <img src="${animal.imagen}" alt="${animal.nombre}"> 
         <h3>${animal.nombre}</h3>
         <p>Precio: $${animal.precio}</p>
         <p>${animal.descripcion}</p>
@@ -65,7 +65,7 @@ function actualizarCarrito() {
   carrito.forEach(animal => {
     const animalElement = `
       <div class="animal-carrito" data-id="${animal.id}">
-        <img src="${animal.imagen}" alt="${animal.nombre}">  <!-- Se agregó el atributo src -->
+        <img src="${animal.imagen}" alt="${animal.nombre}">
         <h3>${animal.nombre}</h3>
         <p>Precio: $${animal.precio}</p>
         <button class="eliminar-carrito">Eliminar</button>
@@ -155,7 +155,7 @@ function enviarCotizacion(event) {
   const direccion = document.getElementById('direccion').value;
   const telefono = document.getElementById('telefono').value;
 
-  alert(`¡Gracias ${nombre} por tu compra! Tus animales te llegarán en breve!`);
+  alert(`¡Gracias ${nombre} por tu compra! Tus animales te llegarán a tu domicilio!`);
   vaciarCarrito();
   cotizacionSection.innerHTML = '';
 
