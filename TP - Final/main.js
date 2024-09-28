@@ -133,13 +133,13 @@ function cotizar() {
     <h2>Confirma tu Compra de Animales</h2>
     <form id="formulario-cotizacion">
       <label for="nombre">Nombre y Apellido:</label>
-      <input type="text" id="nombre" name="nombre" value="Juan Pérez" required>
+      <input type="text" id="nombre" name="nombre" value="Homero Simpson" required>
       <label for="email">Correo Electrónico:</label>
-      <input type="email" id="email" name="email" value="juan.perez@email.com" required>
+      <input type="email" id="email" name="email" value="homerosimpon@gmail.com" required>
       <label for="direccion">Dirección:</label>
-      <input type="text" id="direccion" name="direccion" value="Calle Falsa 123" required>
+      <input type="text" id="direccion" name="direccion" value="Siempreviva 123" required>
       <label for="telefono">Teléfono:</label>
-      <input type="tel" id="telefono" name="telefono" value="555-123-4567" required>
+      <input type="tel" id="telefono" name="telefono" value="3706-808022" required>
       <button type="submit">Comprar</button>
     </form>
   `;
@@ -155,7 +155,7 @@ function enviarCotizacion(event) {
   const direccion = document.getElementById('direccion').value;
   const telefono = document.getElementById('telefono').value;
 
-  alert(`¡Gracias ${nombre} por tu compra! Tu pedido se ha realizado exitosamente.`);
+  alert(`¡Gracias ${nombre} por tu compra! Tus animales te llegarán en breve!`);
   vaciarCarrito();
   cotizacionSection.innerHTML = '';
 
