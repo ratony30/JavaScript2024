@@ -1,0 +1,127 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+
+#productos {
+    padding: 20px;
+}
+
+#lista-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.animal {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.animal img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.animal h3 {
+    margin-bottom: 5px;
+}
+
+
+#carrito {
+    padding: 20px;
+}
+
+#lista-carrito {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.animal-carrito {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.animal-carrito img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.animal-carrito h3 {
+    margin-bottom: 5px;
+}
+
+
+#total-carrito {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+#cotizacion {
+    padding: 20px;
+}
+
+#formulario-cotizacion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#formulario-cotizacion label {
+    margin-bottom: 5px;
+}
+
+#formulario-cotizacion input, #formulario-cotizacion textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

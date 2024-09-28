@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "nombre": "León",
+      "precio": 150000,
+      "imagen": "images/leon.jpg",
+      "descripcion": "El mejor guardían que puedes encontrar para tu hogar"
+    },
+    {
+      "id": 2,
+      "nombre": "Tigre",
+      "precio": 120000,
+      "imagen": "images/tigre.jpg",
+      "descripcion": "El compañero que nunca falla"
+    },
+    {
+      "id": 3,
+      "nombre": "Elefante",
+      "precio": 250000,
+      "imagen": "images/elefante.jpg",
+      "descripcion": "Gran cortador de pastos"
+    },
+    {
+      "id": 4,
+      "nombre": "Jirafa",
+      "precio": 100000,
+      "imagen": "images/jirafa.jpg",
+      "descripcion": "Ideal para chusmear a tus vecinos"
+    }
+  ]
+  
